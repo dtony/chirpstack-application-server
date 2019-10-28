@@ -20,10 +20,10 @@ import (
 	"github.com/brocaar/chirpstack-application-server/internal/integration/mock"
 	"github.com/brocaar/chirpstack-application-server/internal/storage"
 	"github.com/brocaar/chirpstack-application-server/internal/test"
-	"github.com/brocaar/loraserver/api/as"
-	"github.com/brocaar/loraserver/api/common"
-	gwPB "github.com/brocaar/loraserver/api/gw"
-	"github.com/brocaar/loraserver/api/ns"
+	"github.com/brocaar/chirpstack-api/go/as"
+	"github.com/brocaar/chirpstack-api/go/common"
+	gwPB "github.com/brocaar/chirpstack-api/go/gw"
+	"github.com/brocaar/chirpstack-api/go/ns"
 	"github.com/brocaar/lorawan"
 )
 

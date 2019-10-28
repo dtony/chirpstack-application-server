@@ -31,8 +31,8 @@ import (
 	"github.com/brocaar/chirpstack-application-server/internal/integration"
 	"github.com/brocaar/chirpstack-application-server/internal/logging"
 	"github.com/brocaar/chirpstack-application-server/internal/storage"
-	"github.com/brocaar/loraserver/api/as"
-	"github.com/brocaar/loraserver/api/common"
+	"github.com/brocaar/chirpstack-api/go/as"
+	"github.com/brocaar/chirpstack-api/go/common"
 	"github.com/brocaar/lorawan"
 	"github.com/brocaar/lorawan/gps"
 )
