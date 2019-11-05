@@ -7,13 +7,14 @@ require (
 	github.com/Azure/azure-service-bus-go v0.9.1
 	github.com/NickBall/go-aes-key-wrap v0.0.0-20170929221519-1c3aa3e4dfc5
 	github.com/aws/aws-sdk-go v1.19.19
-	github.com/brocaar/chirpstack-api/go v0.0.0-00010101000000-000000000000
+	github.com/brocaar/chirpstack-api/go v0.0.0-20191105130647-2d022ee54ddb
 	github.com/brocaar/lorawan v0.0.0-20190925120821-154a30dbdce2
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/eclipse/paho.mqtt.golang v1.2.0
 	github.com/elazarl/go-bindata-assetfs v1.0.0
 	github.com/gobuffalo/packr v1.22.0 // indirect
 	github.com/gofrs/uuid v3.2.0+incompatible
+	github.com/gogo/protobuf v1.2.1
 	github.com/golang/protobuf v1.3.2
 	github.com/gomodule/redigo v2.0.0+incompatible
 	github.com/gopherjs/gopherjs v0.0.0-20190430165422-3e4dfb77656c // indirect
@@ -29,6 +30,8 @@ require (
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/lib/pq v1.2.0
 	github.com/mmcloughlin/geohash v0.9.0
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/prometheus/client_golang v1.1.0
 	github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d
@@ -52,5 +55,3 @@ require (
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 	pack.ag/amqp v0.12.1 // indirect
 )
-
-replace github.com/brocaar/chirpstack-api/go => /home/brocaar/Work/Projects/ChirpStack/Repos/chirpstack-api/go
