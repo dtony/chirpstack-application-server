@@ -48,6 +48,8 @@ github.com/brocaar/chirpstack-api/go v0.0.0-20191105130647-2d022ee54ddb h1:nZdi9
 github.com/brocaar/chirpstack-api/go v0.0.0-20191105130647-2d022ee54ddb/go.mod h1:/vsYWAB38/6TwFksIBuUGNADkvrsQYFznkFbzLfgrdk=
 github.com/brocaar/chirpstack-api/go v0.0.0-20191108093653-1f154931d689 h1:2VDFfjcj8LVEdEqrzDdUceRD6qEuDzEEe/74Y3NuEe8=
 github.com/brocaar/chirpstack-api/go v0.0.0-20191108093653-1f154931d689/go.mod h1:/vsYWAB38/6TwFksIBuUGNADkvrsQYFznkFbzLfgrdk=
+github.com/brocaar/chirpstack-api/go v0.0.0-20191108152903-62a5e0f31723 h1:ykFDjQqM1rH4O8bDWTKTBz+a/cUF3pQ8Fl2XUTGcXKM=
+github.com/brocaar/chirpstack-api/go v0.0.0-20191108152903-62a5e0f31723/go.mod h1:/vsYWAB38/6TwFksIBuUGNADkvrsQYFznkFbzLfgrdk=
 github.com/brocaar/lorawan v0.0.0-20190925120821-154a30dbdce2 h1:51WcQ+VAc/6jZ/8GBJiQ3B7FrT2aXI+YsUx2iG9tJlw=
 github.com/brocaar/lorawan v0.0.0-20190925120821-154a30dbdce2/go.mod h1:Fm+51pxK6mZoAQjIaWJqPmnRuXecozsM5Mf9c+kr/ko=
 github.com/caarlos0/ctrlc v1.0.0 h1:2DtF8GSIcajgffDFJzyG15vO+1PuBWOMUdFut7NnXhw=

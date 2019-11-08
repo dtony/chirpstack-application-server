@@ -124,7 +124,7 @@ id="{{ .ApplicationServer.ID }}"
   # * protobuf:  Protobuf encoding
   # * json:      JSON encoding (easier for debugging, but less compact than 'protobuf')
   # * json_v3:   v3 JSON (will be removed in the next major release)
-  marshaler="{{ .Integration.Marshaler }}"
+  marshaler="{{ .ApplicationServer.Integration.Marshaler }}"
 
 
   # Enabled integrations.
