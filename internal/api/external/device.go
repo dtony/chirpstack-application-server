@@ -15,7 +15,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	pb "github.com/brocaar/chirpstack-api/go/as/external"
+	pb "github.com/brocaar/chirpstack-api/go/as/external/api"
 	"github.com/brocaar/chirpstack-api/go/common"
 	"github.com/brocaar/chirpstack-api/go/gw"
 	"github.com/brocaar/chirpstack-api/go/ns"

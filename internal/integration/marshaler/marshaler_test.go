@@ -209,49 +209,11 @@ func (ts *MarshalerTestSuite) GetAckEvent() integration.AckEvent {
 }
 
 func (ts *MarshalerTestSuite) GetStatusEvent() integration.StatusEvent {
-	assert := require.New(ts.T())
-
-	now := time.Now().UTC()
-	nowPB, err := ptypes.TimestampProto(now)
-	assert.NoError(err)
-
-	tenSeconds := time.Second * 10
-	tenSecondsPB := ptypes.DurationProto(tenSeconds)
-
 	return integration.StatusEvent{
-		ApplicationId:   123,
-		ApplicationName: "test-application",
-		DeviceName:      "test-device",
-		DevEui:          []byte{0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08},
-		RxInfo: []*gw.UplinkRXInfo{
-			{
-				GatewayId:         []byte{0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08},
-				Time:              nowPB,
-				TimeSinceGpsEpoch: tenSecondsPB,
-				Rssi:              110,
-				LoraSnr:           5.6,
-				Channel:           10,
-				RfChain:           1,
-				Board:             0,
-				Antenna:           0,
-				Location: &common.Location{
-					Latitude:  1.1234,
-					Longitude: 2.1234,
-					Altitude:  3.1,
-				},
-			},
-		},
-		TxInfo: &gw.UplinkTXInfo{
-			Frequency:  868100000,
-			Modulation: common.Modulation_LORA,
-			ModulationInfo: &gw.UplinkTXInfo_LoraModulationInfo{
-				LoraModulationInfo: &gw.LoRaModulationInfo{
-					Bandwidth:       125,
-					SpreadingFactor: 12,
-					CodeRate:        "3/4",
-				},
-			},
-		},
+		ApplicationId:           123,
+		ApplicationName:         "test-application",
+		DeviceName:              "test-device",
+		DevEui:                  []byte{0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08},
 		Margin:                  10,
 		ExternalPowerSource:     true,
 		BatteryLevelUnavailable: true,

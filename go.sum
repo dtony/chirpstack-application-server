@@ -44,12 +44,15 @@ github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6r
 github.com/blakesmith/ar v0.0.0-20150311145944-8bd4349a67f2 h1:oMCHnXa6CCCafdPDbMh/lWRhRByN0VFLvv+g+ayx1SI=
 github.com/blakesmith/ar v0.0.0-20150311145944-8bd4349a67f2/go.mod h1:PkYb9DJNAwrSvRx5DYA+gUcOIgTGVMNkfSCbZM8cWpI=
 github.com/brocaar/chirpstack-api v0.0.0-20191105130647-2d022ee54ddb h1:bbo6t2PlYyNGPxaiCarKmGZi3EU0k9DoyOunUMoYTPg=
+github.com/brocaar/chirpstack-api v0.0.0-20191108152903-62a5e0f31723 h1:vUoXRwqeMWahqdgIe+BTsVOFexg+FfDtuDodz7kyRlA=
 github.com/brocaar/chirpstack-api/go v0.0.0-20191105130647-2d022ee54ddb h1:nZdi9JZgFxeqK2ZU6VzdppzkN/g+e6NFDRGPqcbohK0=
 github.com/brocaar/chirpstack-api/go v0.0.0-20191105130647-2d022ee54ddb/go.mod h1:/vsYWAB38/6TwFksIBuUGNADkvrsQYFznkFbzLfgrdk=
 github.com/brocaar/chirpstack-api/go v0.0.0-20191108093653-1f154931d689 h1:2VDFfjcj8LVEdEqrzDdUceRD6qEuDzEEe/74Y3NuEe8=
 github.com/brocaar/chirpstack-api/go v0.0.0-20191108093653-1f154931d689/go.mod h1:/vsYWAB38/6TwFksIBuUGNADkvrsQYFznkFbzLfgrdk=
 github.com/brocaar/chirpstack-api/go v0.0.0-20191108152903-62a5e0f31723 h1:ykFDjQqM1rH4O8bDWTKTBz+a/cUF3pQ8Fl2XUTGcXKM=
 github.com/brocaar/chirpstack-api/go v0.0.0-20191108152903-62a5e0f31723/go.mod h1:/vsYWAB38/6TwFksIBuUGNADkvrsQYFznkFbzLfgrdk=
+github.com/brocaar/chirpstack-api/go v0.0.0-20191111103439-29e414489ebd h1:bUkoMOs+0UJIngKgatgoPUK4kZMYOYNbuLx72Ex7kf0=
+github.com/brocaar/chirpstack-api/go v0.0.0-20191111103439-29e414489ebd/go.mod h1:/vsYWAB38/6TwFksIBuUGNADkvrsQYFznkFbzLfgrdk=
 github.com/brocaar/lorawan v0.0.0-20190925120821-154a30dbdce2 h1:51WcQ+VAc/6jZ/8GBJiQ3B7FrT2aXI+YsUx2iG9tJlw=
 github.com/brocaar/lorawan v0.0.0-20190925120821-154a30dbdce2/go.mod h1:Fm+51pxK6mZoAQjIaWJqPmnRuXecozsM5Mf9c+kr/ko=
 github.com/caarlos0/ctrlc v1.0.0 h1:2DtF8GSIcajgffDFJzyG15vO+1PuBWOMUdFut7NnXhw=

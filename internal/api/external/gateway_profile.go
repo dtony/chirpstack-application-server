@@ -6,7 +6,7 @@ import (
 
 	"github.com/brocaar/chirpstack-api/go/ns"
 
-	pb "github.com/brocaar/chirpstack-api/go/as/external"
+	pb "github.com/brocaar/chirpstack-api/go/as/external/api"
 	"github.com/brocaar/chirpstack-application-server/internal/api/external/auth"
 	"github.com/brocaar/chirpstack-application-server/internal/api/helpers"
 	"github.com/brocaar/chirpstack-application-server/internal/storage"
